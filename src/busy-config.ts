@@ -3,7 +3,7 @@
  * @author yumao<yuzhang.lille@gmail.com>
  */
 
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 
 export class BusyConfig implements IBusyConfig {
     template: string;
