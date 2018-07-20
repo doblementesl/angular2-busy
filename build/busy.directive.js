@@ -5,7 +5,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Subscription_1 = require("rxjs/Subscription");
+var Subscription_1 = require("rxjs");
 var util_1 = require("./util");
 var promise_tracker_service_1 = require("./promise-tracker.service");
 var busy_service_1 = require("./busy.service");
